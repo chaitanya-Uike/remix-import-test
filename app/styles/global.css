@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* error-boundary styles */
+.error-boundary-container {
+  display: grid;
+  place-items: center;
+  background-color: #f6f6f7;
+  height: 100vh;
+}
+
+.error-boundary {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+}
+
+.error-boundary h1 {
+  font-size: 50px;
+}
+
+.error-boundary p {
+  color: gray;
+}
+
+.error-boundary .error-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
